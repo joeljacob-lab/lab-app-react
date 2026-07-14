@@ -8,7 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <NavigationBar />
-
       <Routes>
         <Route path="/" element={<AddData />} />
       </Routes>
